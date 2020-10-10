@@ -3,7 +3,7 @@
 # Author:           itqiuw
 # Released Date:    2020-10-10
 # Purpose: this script is to check the sybase dbfreespace
-# normally we do in local: sdal05v113 /sybase/STD% isql -Usapsa -Psdbwein -SSTD
+# normally we do in local: isql -U<user> -P<password> -S<sid>
 # and then related sql commands and with "go" behind
 # Here we'll use python ODBC with devart ASE driver to connect
 # Prerequiste: 1. rpm -i devart-odbc-ase.x86_64.rpm
